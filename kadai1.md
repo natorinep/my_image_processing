@@ -7,4 +7,4 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](my_image_processing/image/1_1.jpg)
+![原画像](https://github.com/natorinep/my_image_processing/blob/master/image/1_1.jpg)
