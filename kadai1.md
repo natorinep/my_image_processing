@@ -28,6 +28,9 @@ IMG = imresize(ORG,0.5); % 画像の縮小
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 とする．1/4サンプリングの結果を図３に示す．
+
+![1/4サンプリング](https://github.com/natorinep/my_image_processing/blob/master/image/1_3.jpg)
+
 図3 1/4サンプリング
 
 1/8から1/32サンプリングは，
@@ -37,9 +40,15 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 を繰り返す．サンプリングの結果を図４～６に示す．
 
+![1/8サンプリング](https://github.com/natorinep/my_image_processing/blob/master/image/1_4.jpg)
+
 図4 1/8サンプリング
 
+![1/16サンプリング](https://github.com/natorinep/my_image_processing/blob/master/image/1_5.jpg)
+
 図5 1/16サンプリング
+
+![1/32サンプリング](https://github.com/natorinep/my_image_processing/blob/master/image/1_6.jpg)
 
 図6 1/32サンプリング
 
