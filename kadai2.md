@@ -47,4 +47,4 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ![8階調](https://github.com/natorinep/my_image_processing/blob/master/image/2_4.jpg)  
 図4　8階調
 
-2階調だと猫ということは読み取れるが，細かい部分は分からない．階調を上げる毎に猫の毛並みや表情が読み取れるようになってくる．
+図2の2階調の場合，猫ということは読み取れるが細かい部分は読み取りにくい．階調を上げる毎に猫の毛並みや表情が読み取れるようになってくる．
