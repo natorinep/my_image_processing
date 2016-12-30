@@ -7,3 +7,8 @@
 ![グレースケール](https://github.com/natorinep/my_image_processing/blob/master/image/2_1.jpg)  
 図1　グレースケール
 
+この画像は256階調のグレースケール画像となる．2階調の画像を作成するために0から127，128から256で分ける．そのため128が閾値となる．
+
+IMG = ORG>128;  
+imagesc(IMG); colormap(gray); colorbar;  axis image;
+
