@@ -19,11 +19,11 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 同様に4階調は256を1/4毎に閾値とするため，プログラムは次のようになる．
 
-IMG0 = ORG>64;
-IMG1 = ORG>128;
-IMG2 = ORG>192;
-IMG = IMG0 + IMG1 + IMG2;
-imagesc(IMG); colormap(gray); colorbar;  axis image;
+IMG0 = ORG>64;  
+IMG1 = ORG>128;  
+IMG2 = ORG>192;  
+IMG = IMG0 + IMG1 + IMG2;  
+imagesc(IMG); colormap(gray); colorbar;  axis image;  
 
 4階調の結果を図3に示す．
 
@@ -32,15 +32,15 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 同様に8階調のプログラムが次のようになる．
 
-IMG0 = ORG>32;
-IMG1 = ORG>64;
-IMG2 = ORG>96;
-IMG3 = ORG>128;
-IMG4 = ORG>160;
-IMG5 = ORG>192;
-IMG6 = ORG>224;
-IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
-imagesc(IMG); colormap(gray); colorbar;  axis image;
+IMG0 = ORG>32;  
+IMG1 = ORG>64;  
+IMG2 = ORG>96;  
+IMG3 = ORG>128;  
+IMG4 = ORG>160;  
+IMG5 = ORG>192;  
+IMG6 = ORG>224;  
+IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;  
+imagesc(IMG); colormap(gray); colorbar;  axis image;  
 
 8階調の結果を図4に示す．
 
