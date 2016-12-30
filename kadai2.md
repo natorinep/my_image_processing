@@ -4,5 +4,6 @@
 変換したグレースケール画像から2階調，4階調，8階調の画像を作成する．
 原画像をグレースケールに変換して表示したものを図1に示す．
 
-![グレースケール](https://github.com/natorinep/my_image_processing/blob/master/image/2_1.jpg)
+![グレースケール](https://github.com/natorinep/my_image_processing/blob/master/image/2_1.jpg)  
 図1　グレースケール
+
