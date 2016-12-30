@@ -12,3 +12,7 @@
 IMG = ORG>128;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
+2階調で作成した画像が図2となる．
+
+![2階調](https://github.com/natorinep/my_image_processing/blob/master/image/2_2.jpg)  
+図1　2階調
