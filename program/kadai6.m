@@ -9,7 +9,6 @@ ORG = rgb2gray(ORG);
 imagesc(ORG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\Ž¦
 pause; % ˆêŽž’âŽ~
 
-
 IMG = ORG>128; % 128‚É‚æ‚é“ñ’l‰»
 imagesc(IMG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\Ž¦
 pause;
