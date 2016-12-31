@@ -1,2 +1,2 @@
 # my_image_processing
-提出レポート
+画像処理工学の提出レポート
